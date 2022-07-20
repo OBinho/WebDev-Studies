@@ -12,6 +12,6 @@ console.log('Me'); console.log('beija.');
 
 //apenas uma sentença:
 console.log(
-    'De', 
+    'De',
     'máscara'
 );
