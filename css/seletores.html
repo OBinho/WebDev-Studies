@@ -6,7 +6,25 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* 
+        Exemplos de seletores:
+            seletor universal : * 
+            Seletor de classe: .tag 
+            Seletor de ID: #aprovados 
+            Seletor de filho direto: #aninhado > div 
+            Seletor de filho indireto : #aninhado section 
+            Seletor de irmão direto: p + ul 
+            Seletor de irmão geral: p ~ ol 
+            Seletor de propriedade: [feira]
+            Seletor de filho condicional: section > :nth-child(odd)
+            Seletor de filho múltiplo: section > :nth-child(odd), ul, p
+        */
+
+        p ~ ol {
+            color: #ff0;
+            background-color: #f77;
+        }
+
     </style>
 </head>
 
